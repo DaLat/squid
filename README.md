@@ -4,7 +4,7 @@
 --------------------------------
 Step 1. Cài đặt httpd-tools, Squid <br />
 #yum -y install httpd-tools <br />
-#yum install squid
+#yum -y install squid
 
 Step 2. Tạo File Password, Set Password Proxy <br />
 #touch /etc/squid/passwd <br />
