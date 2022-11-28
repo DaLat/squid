@@ -1,4 +1,4 @@
-# squid
+# squid Proxy
 
 + Setup trên Centos 7 x64
 --------------------------------
@@ -6,13 +6,13 @@ Step 1. Cài đặt httpd-tools, Squid <br />
 #yum -y install httpd-tools <br />
 #yum install squid
 
-Step 2. Tạo File Password, Set Password Proxy
-#touch /etc/squid/passwd
-#chown squid: /etc/squid/passwd
-#htpasswd /etc/squid/passwd admin
+Step 2. Tạo File Password, Set Password Proxy <br />
+#touch /etc/squid/passwd <br />
+#chown squid: /etc/squid/passwd <br />
+#htpasswd /etc/squid/passwd admin <br />
 Nhập Password và Xác minh Password.
 
-Step 3. Cấu hình Squid Config.
+Step 3. Cấu hình Squid Config. <br />
 #nano /etc/squid/squid.conf
 
 Copy và Paste.
