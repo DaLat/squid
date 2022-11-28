@@ -2,8 +2,8 @@
 
 + Setup trên Centos 7 x64
 --------------------------------
-Step 1. Cài đặt httpd-tools, Squid
-#yum -y install httpd-tools
+Step 1. Cài đặt httpd-tools, Squid <br />
+#yum -y install httpd-tools <br />
 #yum install squid
 
 Step 2. Tạo File Password, Set Password Proxy
